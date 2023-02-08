@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>YaDebilaKusok</title>
+   <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+   <div class="wrapper">
+      <div class="polotno">
+         <div class="container">
+            <div class="gender_body">
+               <div class="gender_choise">Оберіть стать</div>
+               <div class="gender_obolochka">
+                  <select name="gender" class="gender_gender">
+                     <option value="" selected></option>
+                     <option value="male">Чоловік</option>
+                     <option value="female">Жінка</option>
+                  </select>
+               </div>
+               <div class="change"></div>
+            </div>
+            <input type="text" class="text_name" oninput="this.value=this.value.replace(/[^a-zA-Zа-яА-ЯїЇіІ]/g,'');"
+               placeholder="Введіть ім'я користувача">
+            <div class="blockname">lorem</div>
+            <input type="date" class="date_birthday">
+            <input type="text" class="date_birthday_text" placeholder="Введіть свій рік народження">
+            <div class="text_girl">Дівчат про вік не питають
+               <img src="./img/01.png" class="img">
+            </div>
+
+         </div>
+         <input type="number" class="number_girl" placeholder="Введіть будь яку цифру">
+         <input type="number" class="number_girl2" placeholder="Введіть будь яку цифру">
+         <div class="blockage"> Зачекайте,іде обробка інформації</div>
+         <div class="blockage2"> Зачекайте,іде обробка інформації</div>
+         <div class="message">message</div>
+         <div class="message2">Оберіть стать</div>
+         <div class="nameresult">Клацніть,щоб отримати результат</div>
+      </div>
+   </div>
+   <script src="./js/script.js"></script>
+</body>
+
+</html>

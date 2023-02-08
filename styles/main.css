@@ -1,0 +1,198 @@
+.wrapper .polotno {
+  width: 100%;
+  height: 1200px;
+  overflow: hidden;
+  background-color: rgb(167, 99, 17);
+}
+.wrapper .polotno .container {
+  padding: 15px;
+  width: 700px;
+  margin: 0 auto;
+  background-color: rgb(204, 191, 6);
+}
+.wrapper .polotno .container .text_name {
+  display: none;
+}
+.wrapper .polotno .container .txtname {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 300px;
+  font-size: 18px;
+  border: 1px solid rgb(120, 76, 240);
+  border-radius: 5px;
+  padding: 5px;
+}
+.wrapper .polotno .container .date_birthday {
+  display: none;
+}
+.wrapper .polotno .container .date_birthday_text {
+  display: none;
+}
+.wrapper .polotno .container .brthd {
+  display: block;
+  padding: 5px;
+  margin: 0 auto;
+  text-align: center;
+  width: 300px;
+  font-size: 18px;
+  border: 1px solid rgb(120, 76, 240);
+  border-radius: 5px;
+}
+.wrapper .polotno .container .seeman:not(.new) {
+  display: none;
+}
+.wrapper .polotno .container .new {
+  display: block;
+  background-color: black;
+}
+.wrapper .polotno .container .gender_body {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper .polotno .container .gender_body .gender_choise {
+  text-align: center;
+  font-size: 25px;
+  margin: 15px;
+}
+.wrapper .polotno .container .gender_body .gender_obolochka {
+  margin: 0 auto;
+}
+.wrapper .polotno .container .gender_body .gender_obolochka .gender_gender {
+  width: 150px;
+  height: 30px;
+  margin: 10px;
+  border: 2px solid rgb(104, 75, 231);
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+.wrapper .polotno .blockname {
+  display: none;
+}
+.wrapper .polotno .bkname {
+  display: block;
+  padding: 5px;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+  font-size: 18px;
+  border: 1px solid rgb(120, 76, 240);
+  background-color: rgb(4, 190, 82);
+  border-radius: 5px;
+}
+.wrapper .polotno .blockage {
+  display: none;
+}
+.wrapper .polotno .blockage2 {
+  display: none;
+}
+.wrapper .polotno .bkage {
+  display: block;
+  padding: 5px;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+  font-size: 18px;
+  border: 1px solid rgb(120, 76, 240);
+  background-color: rgb(248, 12, 228);
+  border-radius: 5px;
+}
+.wrapper .polotno .message {
+  display: none;
+}
+.wrapper .polotno .bkmess {
+  display: block;
+  padding: 5px;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+  font-size: 18px;
+  border: 1px solid rgb(120, 76, 240);
+  background-color: rgb(89, 72, 235);
+  border-radius: 5px;
+}
+.wrapper .polotno .message2 {
+  display: none;
+}
+.wrapper .polotno .bkmess2 {
+  display: block;
+  padding: 5px;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+  font-size: 18px;
+  border: 1px solid rgb(120, 76, 240);
+  background-color: rgb(89, 72, 235);
+  border-radius: 5px;
+}
+.wrapper .polotno .nameresult {
+  display: none;
+}
+.wrapper .polotno .bkres {
+  display: block;
+  padding: 5px;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+  font-size: 18px;
+  border: 1px solid rgb(120, 76, 240);
+  background-color: rgb(156, 148, 228);
+  border-radius: 5px;
+}
+
+.govno:not(.mocha) {
+  display: none;
+}
+
+.zalupa:not(.hui) {
+  display: none;
+}
+
+.number_girl {
+  display: none;
+}
+
+.number_girl2 {
+  display: none;
+}
+
+.numgirl {
+  display: block;
+  padding: 5px;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+  font-size: 18px;
+  border: 1px solid rgb(120, 76, 240);
+  border-radius: 5px;
+  background-color: aqua;
+}
+
+.text_girl {
+  display: none;
+}
+
+.text_girl.bla {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+  margin: 0 auto;
+  text-align: center;
+  width: 300px;
+  font-size: 18px;
+  border: 1px solid rgb(120, 76, 240);
+  border-radius: 5px;
+  background-color: bisque;
+}
+.text_girl.bla img {
+  width: 20px;
+  height: 20px;
+}/*# sourceMappingURL=main.css.map */
